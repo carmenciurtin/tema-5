@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b65be89-ae44-467c-83d9-fffed31e74b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WebBasicPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WebElementAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WebLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WebTableTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WebTestPages.java" afterDir="false" />
+    <list default="true" id="9b65be89-ae44-467c-83d9-fffed31e74b3" name="Changes" comment="tema 5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebTestPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WebTestPages.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files (x86)/Selenium/selenium-server-4.3.0&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Radu/IdeaProjects/temaSeleniumLocatorDemoQA",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.WebTableTag">
+}]]></component>
+  <component name="RunManager" selected="Application.WebTestPages">
     <configuration name="WebBasicPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.WebBasicPage" />
       <module name="temaSeleniumLocator" />
@@ -110,7 +99,7 @@
     </configuration>
     <configuration name="WebTestPages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.WebTestPages" />
-      <module name="temaSeleniumLocator" />
+      <module name="temaSeleniumLocatorDemoQA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -123,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebTableTag" />
         <item itemvalue="Application.WebTestPages" />
+        <item itemvalue="Application.WebTableTag" />
         <item itemvalue="Application.WebLocators" />
         <item itemvalue="Application.WebElementAttributes" />
         <item itemvalue="Application.WebBasicPage" />
@@ -140,6 +129,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660048618044</updated>
     </task>
+    <task id="LOCAL-00001" summary="tema 5">
+      <created>1660204571453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660204571453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +149,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tema 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="tema 5" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
