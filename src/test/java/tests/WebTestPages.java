@@ -1,18 +1,20 @@
 package tests;
 
-import driver.WebDriverManager;
+import driver.WebDriverConfig;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
 
 public class WebTestPages {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws MalformedURLException {
 
         testWebTestPages();
     }
-    public static void testWebTestPages(){
-        ChromeDriver driver = WebDriverManager.createChromeDriver();
+    public static void testWebTestPages() throws MalformedURLException {
+        RemoteWebDriver driver = WebDriverConfig.getRemoteChromeDriver();
         driver.get("https://demoqa.com/elements");
 
         WebElement title = driver.findElement(By.cssSelector(".main-header"));
