@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b65be89-ae44-467c-83d9-fffed31e74b3" name="Changes" comment="tema 5">
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/WebDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/WebDriverManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebBasicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WebBasicPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebElementAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WebElementAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WebLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebTableTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WebTableTag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebTestPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WebTestPages.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +29,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2D7SNAdbc97kPYdR9DQnfQ9XwK7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,13 +57,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Radu/IdeaProjects/temaSeleniumLocatorDemoQA",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/carme/IdeaProjects/SELENIUM GRID/tema-5",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WebTestPages">
+  <component name="RunManager" selected="Application.WebBasicPage">
     <configuration name="WebBasicPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.WebBasicPage" />
       <module name="temaSeleniumLocator" />

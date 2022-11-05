@@ -1,17 +1,19 @@
 package tests;
 
-import driver.WebDriverManager;
+import driver.WebDriverConfig;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
 
 public class WebElementAttributes {
-    public static void main(String[] args){
+    public static void main(String[] args) throws MalformedURLException {
 
         testWebElementAttributes();
     }
-    public static void testWebElementAttributes(){
-        ChromeDriver driver = WebDriverManager.createChromeDriver();
+    public static void testWebElementAttributes() throws MalformedURLException {
+        RemoteWebDriver driver = WebDriverConfig.getRemoteChromeDriver();
         driver.get("https://testpages.herokuapp.com/styled/attributes-test.html");
 
         WebElement title = driver.findElement(By.tagName("h1"));
@@ -33,6 +35,6 @@ public class WebElementAttributes {
         button.click();
 
 
-        //driver.quit();
+        driver.quit();
     }
 }

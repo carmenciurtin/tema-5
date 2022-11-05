@@ -1,19 +1,20 @@
 package tests;
 
-import driver.WebDriverManager;
+import driver.WebDriverConfig;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
 import java.util.List;
 
 public class WebTableTag {
-    public static void main(String[] args){
+    public static void main(String[] args) throws MalformedURLException {
 
         testWebTableTag();
     }
-    public static void testWebTableTag(){
-        ChromeDriver driver = WebDriverManager.createChromeDriver();
+    public static void testWebTableTag() throws MalformedURLException {
+        RemoteWebDriver driver = WebDriverConfig.getRemoteChromeDriver();
         driver.get("https://testpages.herokuapp.com/styled/tag/table.html");
 
         WebElement title = driver.findElement(By.tagName("h1"));

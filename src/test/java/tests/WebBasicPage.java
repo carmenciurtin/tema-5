@@ -1,19 +1,21 @@
 package tests;
 
-import driver.WebDriverManager;
+import driver.WebDriverConfig;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
 
 
 public class WebBasicPage {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws MalformedURLException {
 
         testWebBasicPage();
     }
-    public static void testWebBasicPage(){
-        ChromeDriver driver = WebDriverManager.createChromeDriver();
+    public static void testWebBasicPage() throws MalformedURLException {
+        RemoteWebDriver driver = WebDriverConfig.getRemoteChromeDriver();
         driver.get("https://testpages.herokuapp.com/styled/basic-web-page-test.html");
 
         WebElement title = driver.findElement(By.tagName("h1"));
